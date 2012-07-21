@@ -1,12 +1,7 @@
 <h3>Your Contacts</h3>
 <% @friends.each do |friend| %>
  <div>
-  <span> 
-   Name: <%= friend[:name] %>
-  </span>
-  <span>
-   Email: <%= friend[:email] %>
-  </span>
+  <%= friend[:email] %>  
  </div>
 <% end %>
 
